@@ -1,0 +1,94 @@
+body{
+	margin: 0;
+	padding: 0;
+}
+.container{    background: #5f5d5a;
+    width: 1200px;
+    margin: 50px auto;
+    border: 3px solid wheat;}
+header{
+    /* background: wheat; */
+    width: 100%;
+    overflow: hidden;
+    }
+.logo{
+    /* background: sandybrown; */
+    width: 30%;
+    float: left;
+    }
+.logo img{max-width: 100%;
+    display: block;}
+nav{    width: 70%;
+    float: left;}
+nav ul{
+    text-align: right;
+    padding:  0;
+    margin:  0;
+}
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+}
+nav ul li a{
+    display:  block;
+    color:  white;
+    text-decoration:  none;
+    text-transform:  uppercase;
+    padding:  10px 10px;
+}
+
+.main-content{
+    /* background: #9393bb; */
+    overflow:  hidden;
+    display:  block;
+    width:  100%;
+}
+.image{
+    width: 24%;
+    float:  left;
+    margin: 10px 46px;
+}
+
+aside{
+ 
+    font-style: italic;
+    width:  50%;
+    float:  left;
+    margin: 66px 0px;
+    font-size: 30px;
+    color: #f5f3f0;
+}
+
+footer{
+    background: #ea0d69;
+    width: 100%;
+    overflow:  hidden;
+}
+.copyright{
+    width:  30%;
+    float:  left;
+    font-size: 18px;
+    color:  white
+}
+.social-icon{
+    text-align: center;
+    padding:  0;
+    margin:  0;
+}
+.social-icon ol li{
+    list-style-type: none;
+    display: inline-block;
+}
+.social-icon ol li a{
+    display:  block;
+    color:  white;
+    padding: 10px 10px;
+    height: 30px;
+    width: 30px;
+    /* background-color:  antiquewhite; */
+    line-height: 30px;
+    font-size: 41px;
+
+
+
+
